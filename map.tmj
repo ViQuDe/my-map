@@ -510,6 +510,16 @@
          "spacing":0,
          "tilecount":1,
          "tileheight":32,
+         "tiles":[
+                {
+                 "id":0,
+                 "properties":[
+                        {
+                         "name":"start",
+                         "type":"string",
+                         "value":"spawn"
+                        }]
+                }],
          "tilewidth":32
         }],
  "tilewidth":32,
