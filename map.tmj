@@ -3751,25 +3751,25 @@
          "objects":[
                 {
                  "class":"area",
-                 "height":98,
+                 "height":61,
                  "id":21,
                  "name":"PanneauBrasserie",
                  "rotation":0,
                  "visible":true,
-                 "width":96,
-                 "x":1856,
-                 "y":605.5
+                 "width":35,
+                 "x":1885.5,
+                 "y":642.5
                 }, 
                 {
                  "class":"",
-                 "height":98,
+                 "height":65,
                  "id":22,
                  "name":"PanneauBrasseriePopup",
                  "rotation":0,
                  "visible":true,
-                 "width":97.5,
+                 "width":66,
                  "x":1886.5,
-                 "y":543
+                 "y":576
                 }],
          "opacity":1,
          "type":"objectgroup",
