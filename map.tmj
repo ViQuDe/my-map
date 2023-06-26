@@ -3756,20 +3756,20 @@
                  "name":"PanneauBrasserie",
                  "rotation":0,
                  "visible":true,
-                 "width":66.5,
+                 "width":35.5,
                  "x":1885.5,
                  "y":642.5
                 }, 
                 {
                  "class":"",
-                 "height":65,
+                 "height":96.5,
                  "id":22,
                  "name":"PanneauBrasseriePopup",
                  "rotation":0,
                  "visible":true,
-                 "width":66,
+                 "width":97.5,
                  "x":1886.5,
-                 "y":576
+                 "y":544.5
                 }],
          "opacity":1,
          "type":"objectgroup",
