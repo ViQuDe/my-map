@@ -20,7 +20,7 @@ WA.onInit().then(() => {
     WA.room.area.onLeave('clock').subscribe(closePopup)
 
     WA.room.area.onEnter('PanneauBrasserie').subscribe(() => {
-        currentPopup = WA.ui.openPopup("PanneauBrasseriePopup", "Brasserie vers le haut");
+        currentPopup = WA.ui.openPopup("PanneauBrasseriePopup", "Brasserie vers le haut", []);
     })
     
     WA.room.area.onLeave('PanneauBrasseriePopup').subscribe(closePopup)
