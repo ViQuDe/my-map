@@ -19,6 +19,9 @@ WA.onInit().then(() => {
 
     WA.room.area.onLeave('clock').subscribe(closePopup)
 
+    WA.room.area.onEnter('PanneauBrasserie').subscribe(() => {
+        currentPopup = WA.ui.openPopup("PanneauBrasseriePopup", "Brasserie vers le haut");
+    })
     // The line below bootstraps the Scripting API Extra library that adds a number of advanced properties/features to WorkAdventure
     bootstrapExtra().then(() => {
         console.log('Scripting API Extra ready');
