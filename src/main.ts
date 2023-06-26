@@ -23,7 +23,7 @@ WA.onInit().then(() => {
         currentPopup = WA.ui.openPopup("PanneauBrasseriePopup", "Brasserie vers le haut", []);
     })
     
-    WA.room.area.onLeave('PanneauBrasserie').subscribe(closePopup)
+    WA.room.area.onLeave('PanneauBrasseriePopup').subscribe(closePopup)
 
 
     // The line below bootstraps the Scripting API Extra library that adds a number of advanced properties/features to WorkAdventure
